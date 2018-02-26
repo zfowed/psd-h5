@@ -1,0 +1,24 @@
+{
+  "name": "psd-h5",
+  "version": "1.0.0",
+  "description": "psd转换移动端H5网站",
+  "main": "index.js",
+  "dependencies": {
+    "callback-to-promisify": "^1.0.2",
+    "cheerio": "^1.0.0-rc.2",
+    "fs-extra": "^5.0.0",
+    "psd": "^3.2.0",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "psd to h5",
+    "psd",
+    "h5"
+  ],
+  "author": "zfowed",
+  "license": "ISC"
+}

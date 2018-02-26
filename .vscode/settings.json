@@ -1,0 +1,41 @@
+{
+    "psi-header.config": {
+        "forceToTop": true,
+        "blankLinesAfter": 3,
+        "company": "zfowed",
+        "copyrightHolder": "zfowed"
+    },
+    "psi-header.changes-tracking": {
+        "isActive": true,
+        "modAuthor": "@Last Modified by: ",
+        "modDate": "@Last Modified time: ",
+        "modDateFormat": "YYYY-MM-DD HH:mm:ss",
+        "include": [
+            "javascript"
+        ],
+        "exclude": [
+            "json"
+        ],
+        "autoHeader": "autoSave",
+    },
+    "psi-header.lang-config": [
+        {
+            "language": "javascript",
+            "afterHeader": [
+                "'use strict';"
+            ]
+        }
+    ],
+    "psi-header.templates": [
+        {
+            "language": "javascript",
+            "template": [
+                "@Author: <<author>>",
+                "@Date: <<filecreated('YYYY-MM-DD')>> <<time>>",
+                "@Last Modified by: ",
+                "@Last Modified time: "
+            ]
+        }
+    ],
+    "git.ignoreLimitWarning": true
+}
